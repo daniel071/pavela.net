@@ -4,8 +4,16 @@ body {
   background-color: #232323;
 }
 
-h1, p {
+h1, h2, p {
 	color: #cecece;
+}
+
+p {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 25px;
 }
 
 .header {
@@ -16,7 +24,28 @@ h1, p {
 }
 
 .header h1 {
+	color: white;
 	font-size: 40px;
+}
+
+div.image-caption {
+	margin: 20px;
+	float: right;
+	width: 400px;
+	clear: right
+}
+
+div.image-caption img {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+div.image-caption p {
+	padding: 15px;
+	text-align: center;
 }
 
 /* Style the top navigation bar */
