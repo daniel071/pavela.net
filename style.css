@@ -32,11 +32,25 @@ h2 {
 	font-size: 40px;
 }
 
-div.image-caption {
-	margin: 20px;
-	float: right;
-	width: 400px;
-	clear: right
+/* If on mobile */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+	div.image-caption {
+		margin: 20px;
+		float: unset;
+		clear: unset;
+	}
+}
+
+@media screen and (min-height: 450px) {
+	div.image-caption {
+		margin: 20px;
+		float: right;
+		width: 400px;
+		clear: right
+	}
 }
 
 div.image-caption img {
@@ -108,17 +122,4 @@ div.image-caption p {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}
-
-/* If on mobile */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-
-	.image-caption {
-		margin: 20px;
-		float: center;
-		width: 400px;
-		clear: center;
-	}
 }
