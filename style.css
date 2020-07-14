@@ -33,7 +33,7 @@ h2 {
 }
 
 /* If on mobile */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 800px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 
@@ -44,7 +44,8 @@ h2 {
 	}
 }
 
-@media screen and (min-height: 450px) {
+/* If on desktop */
+@media screen and (min-height: 800px) {
 	div.image-caption {
 		margin: 20px;
 		float: right;
