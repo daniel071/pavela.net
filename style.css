@@ -16,6 +16,10 @@ h2 {
 	font-size: 25px;
 }
 
+.main {
+	padding: 10px;
+}
+
 .header {
   background-color: #4ea8fc;
   text-align: center;
@@ -104,4 +108,17 @@ div.image-caption p {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+/* If on mobile */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+	.image-caption {
+		margin: 20px;
+		float: center;
+		width: 400px;
+		clear: center;
+	}
 }
