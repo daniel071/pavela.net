@@ -32,8 +32,16 @@ h2 {
 	font-size: 40px;
 }
 
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #4ea8fc;
+	color: white;
+}
+
 /* If on mobile */
-@media screen and (max-height: 800px) {
+@media screen and (max-width: 700px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 
@@ -45,7 +53,7 @@ h2 {
 }
 
 /* If on desktop */
-@media screen and (min-height: 800px) {
+@media screen and (min-width: 700px) {
 	div.image-caption {
 		margin: 20px;
 		float: right;
