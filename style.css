@@ -146,15 +146,15 @@ div.image-caption p {
 /* its link time! */
 
 /* unvisited link */
-.main a:link {
+#main a:link {
 	color: #0474f4;
 }
 /* visited link */
-.main a:visited {
+#main a:visited {
 	color: #0474f4;
 }
 /* mouse over link */
-.main a:hover {
+#main a:hover {
 	color: #8ebf42;
 }
 
