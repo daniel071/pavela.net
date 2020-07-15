@@ -132,3 +132,18 @@ div.image-caption p {
   font-size: 36px;
   margin-left: 50px;
 }
+
+/* its link time! */
+
+/* unvisited link */
+.main a:link {
+	color: #0474f4;
+}
+/* visited link */
+.main a:visited {
+	color: #0474f4;
+}
+/* mouse over link */
+.main a:hover {
+	color: #8ebf42;
+}
