@@ -147,3 +147,9 @@ div.image-caption p {
 .main a:hover {
 	color: #8ebf42;
 }
+
+/* its list time! */
+.cool-list {
+	font-size: 18px;
+	color: white;
+}
