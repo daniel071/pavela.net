@@ -24,6 +24,9 @@ h2 {
   background-color: #4ea8fc;
   text-align: center;
 	padding: 80px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
 	color: white;
 }
 
@@ -79,6 +82,9 @@ div.image-caption p {
 #navbar {
   overflow: hidden;
   background-color: #333;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
 }
 
 /* Style the navigation bar links */
@@ -104,7 +110,7 @@ div.image-caption p {
 }
 
 .addMeUWU {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .sidenav {
