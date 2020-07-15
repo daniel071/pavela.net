@@ -76,13 +76,13 @@ div.image-caption p {
 }
 
 /* Style the top navigation bar */
-.navbar {
+#navbar {
   overflow: hidden;
   background-color: #333;
 }
 
 /* Style the navigation bar links */
-.navbar a {
+#navbar a {
   float: left;
   display: block;
   color: white;
@@ -92,9 +92,15 @@ div.image-caption p {
 }
 
 /* Change color on hover */
-.navbar a:hover {
+#navbar a:hover {
   background-color: #ddd;
   color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .sidenav {
