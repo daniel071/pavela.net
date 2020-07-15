@@ -16,8 +16,8 @@ h2 {
 	font-size: 25px;
 }
 
-.main {
-	padding: 10px;
+#main {
+	margin: 10px;
 }
 
 .header {
@@ -101,6 +101,10 @@ div.image-caption p {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.addMeUWU {
+  padding-top: 60px;
 }
 
 .sidenav {
