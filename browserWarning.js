@@ -6,9 +6,10 @@ var isIE = /*@cc_on!@*/false || !!document.documentMode;
 // Edge 20+
 var isEdge = !isIE && !!window.StyleMedia;
 
-// Firefox 1.0+
-var isFirefox = typeof InstallTrigger !== 'undefined';
-
-if (isIE == true || isEdge == true || isFirefox == true) {
+if (isIE == true || isEdge == true) {
 	document.getElementById("warning").style.display = "block";
+}
+
+function dismiss() {
+	document.getElementById("warning").style.display = "none"
 }

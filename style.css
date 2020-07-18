@@ -54,6 +54,12 @@ h2 {
 	margin: -20px;
 }
 
+.button {
+	float: right;
+	border: none;
+	background: none;
+}
+
 /* If on mobile */
 @media screen and (max-width: 700px) {
   .sidenav {padding-top: 15px;}
