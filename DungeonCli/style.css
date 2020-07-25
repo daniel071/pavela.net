@@ -63,3 +63,16 @@ body, html {
 	border-color: #008CBA;
   color: white;
 }
+
+#downloadLinux {
+	display: none;
+}
+#downloadWindows {
+	display: none;
+}
+#downloadMacOS {
+	display: none;
+}
+#downloadOther {
+	display: none;
+}
