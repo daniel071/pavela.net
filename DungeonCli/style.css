@@ -1,0 +1,42 @@
+body, html {
+	background-color: #1c1c1c;
+	height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://raw.githubusercontent.com/daniel071/DungeonCli/master/Images/Screenshots/scrollingtext.gif");
+
+  /* Add the blur effect */
+  /* filter: blur(4px);
+  -webkit-filter: blur(4px); */
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+	font-family: 'Product Sans';
+	text-align: center;
+	color: white;
+}
