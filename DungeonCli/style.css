@@ -76,3 +76,19 @@ body, html {
 #downloadOther {
 	display: none;
 }
+
+.otherDownloads {
+	color: #006B8E;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.footer {
+	font-family: 'Product Sans';
+	font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #008CBA;
+	color: white;
+	margin: -20px;
+}
