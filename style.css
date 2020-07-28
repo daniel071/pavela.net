@@ -7,21 +7,6 @@ body, html {
 	overflow-x: hidden;
 }
 
-
-.parallax {
-  /* The image used */
-  background-image: url('img_parallax.jpg');
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .bg-image {
   /* The image used */
   background-image: url("icons/banner.png");
@@ -68,25 +53,6 @@ body, html {
   background-color: #008CBA;
 	border-color: #008CBA;
   color: white;
-}
-
-#downloadLinux {
-	display: none;
-}
-#downloadWindows {
-	display: none;
-}
-#downloadMacOS {
-	display: none;
-}
-#downloadOther {
-	display: none;
-}
-
-.otherDownloads {
-	color: #006B8E;
-	font-size: 30px;
-	text-decoration: none;
 }
 
 .footer {
