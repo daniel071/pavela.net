@@ -26,7 +26,7 @@ body, html {
 
 
 .main {
-	font-family: 'Product Sans';
+	font-family: 'Product Sans'; Roboto; Arial
 	text-align: center;
 	color: white;
 }
@@ -38,7 +38,7 @@ body, html {
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
-	font-family: 'Product Sans';
+	font-family: 'Product Sans'; Roboto; Arial
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -74,7 +74,7 @@ body, html {
 }
 
 .footer {
-	font-family: 'Product Sans';
+	font-family: 'Product Sans'; Roboto; Arial
 	font-size: 20px;
   padding: 20px;
   text-align: center;
