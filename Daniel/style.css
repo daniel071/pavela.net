@@ -1,0 +1,188 @@
+body {
+	font-family: Roboto, Helvetica, "Segoe UI", Arial, serif;
+
+  background-color: #232323;
+}
+
+h1, h2, p {
+	color: #cecece;
+}
+
+p {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+#main {
+	margin: 10px;
+}
+
+#warning {
+	display: none;
+	border-style: solid;
+	border-color: #f74242;
+	background-color: red;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.header {
+  background-color: #4ea8fc;
+  text-align: center;
+	padding: 80px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	color: white;
+}
+
+.header h1 {
+	color: white;
+	font-size: 40px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #4ea8fc;
+	color: white;
+	margin: -20px;
+}
+
+.button {
+	float: right;
+	border: none;
+	background: none;
+}
+
+/* If on mobile */
+@media screen and (max-width: 700px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+	div.image-caption {
+		margin: 20px;
+		float: unset;
+		clear: unset;
+	}
+}
+
+/* If on desktop */
+@media screen and (min-width: 700px) {
+	div.image-caption {
+		margin: 20px;
+		float: right;
+		width: 400px;
+		clear: right
+	}
+}
+
+div.image-caption img {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+div.image-caption p {
+	padding: 15px;
+	text-align: center;
+}
+
+/* Style the top navigation bar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+}
+
+/* Style the navigation bar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.addMeUWU {
+  padding-top: 50px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* its link time! */
+
+/* unvisited link */
+#main a:link {
+	color: #0474f4;
+}
+/* visited link */
+#main a:visited {
+	color: #0474f4;
+}
+/* mouse over link */
+#main a:hover {
+	color: #8ebf42;
+}
+
+/* its list time! */
+.cool-list {
+	font-size: 18px;
+	color: white;
+}

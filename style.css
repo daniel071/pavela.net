@@ -1,188 +1,96 @@
-body {
-	font-family: Roboto, Helvetica, "Segoe UI", Arial, serif;
-
-  background-color: #232323;
+body, html {
+	/* use #3f494f for pavela website */
+	background-color: #3f494f;
+	height: 100%;
 }
 
-h1, h2, p {
-	color: #cecece;
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-p {
-	font-size: 18px;
+.bg-image {
+  /* The image used */
+  background-image: url("icons/banner.png");
+
+  /* Add the blur effect */
+  /* filter: blur(4px);
+  -webkit-filter: blur(4px); */
+
+  /* Full height */
+  height: 80%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h2 {
-	font-size: 25px;
-}
 
-#main {
-	margin: 10px;
-}
-
-#warning {
-	display: none;
-	border-style: solid;
-	border-color: #f74242;
-	background-color: red;
+.main {
+	font-family: 'Product Sans';
+	text-align: center;
 	color: white;
-	border-radius: 10px;
-	padding: 10px;
-}
-
-.header {
-  background-color: #4ea8fc;
-  text-align: center;
-	padding: 80px;
-	margin-left: -10px;
-	margin-right: -10px;
-	margin-top: -10px;
-	color: white;
-}
-
-.header h1 {
-	color: white;
-	font-size: 40px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #4ea8fc;
-	color: white;
-	margin: -20px;
 }
 
 .button {
-	float: right;
-	border: none;
-	background: none;
-}
-
-/* If on mobile */
-@media screen and (max-width: 700px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-
-	div.image-caption {
-		margin: 20px;
-		float: unset;
-		clear: unset;
-	}
-}
-
-/* If on desktop */
-@media screen and (min-width: 700px) {
-	div.image-caption {
-		margin: 20px;
-		float: right;
-		width: 400px;
-		clear: right
-	}
-}
-
-div.image-caption img {
-	display: block;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	height: auto;
-}
-
-div.image-caption p {
-	padding: 15px;
-	text-align: center;
-}
-
-/* Style the top navigation bar */
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-	margin-left: -10px;
-	margin-right: -10px;
-	margin-top: -10px;
-}
-
-/* Style the navigation bar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: white;
+  border-radius: 8px;
+  padding: 32px 64px;
   text-align: center;
-  padding: 14px 20px;
   text-decoration: none;
-}
-
-/* Change color on hover */
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.addMeUWU {
-  padding-top: 50px;
-}
-
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  text-align:center;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-
-}
-
-.sidenav a:hover{
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* its link time! */
-
-/* unvisited link */
-#main a:link {
-	color: #0474f4;
-}
-/* visited link */
-#main a:visited {
-	color: #0474f4;
-}
-/* mouse over link */
-#main a:hover {
-	color: #8ebf42;
-}
-
-/* its list time! */
-.cool-list {
-	font-size: 18px;
+  display: inline-block;
+  font-size: 24px;
+	font-family: 'Product Sans';
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+	background-color: #0082ac;
 	color: white;
+	border: 2px solid #0082ac;
+}
+
+.button:hover {
+	font-size: 26px;
+  background-color: #008CBA;
+	border-color: #008CBA;
+  color: white;
+}
+
+#downloadLinux {
+	display: none;
+}
+#downloadWindows {
+	display: none;
+}
+#downloadMacOS {
+	display: none;
+}
+#downloadOther {
+	display: none;
+}
+
+.otherDownloads {
+	color: #006B8E;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.footer {
+	font-family: 'Product Sans';
+	font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #008CBA;
+	color: white;
+	margin: -20px;
 }

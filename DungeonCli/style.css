@@ -1,4 +1,5 @@
 body, html {
+	/* use #3f494f for pavela website */
 	background-color: #1c1c1c;
 	height: 100%;
 }
@@ -33,6 +34,16 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.dungeonCli {
+	/* The image used */
+	background-image: url("https://raw.githubusercontent.com/daniel071/DungeonCli/master/Images/Screenshots/scrollingtext.gif");
+}
+
+.pavela {
+	/* The image used */
+	background-image: url("../icons/banner.png");
 }
 
 .main {
