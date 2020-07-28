@@ -2,7 +2,11 @@ body, html {
 	/* use #3f494f for pavela website */
 	background-color: #3f494f;
 	height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow-x: hidden;
 }
+
 
 .parallax {
   /* The image used */

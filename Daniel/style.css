@@ -1,7 +1,10 @@
 body {
 	font-family: Roboto, Helvetica, "Segoe UI", Arial, serif;
-
   background-color: #232323;
+	
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow-x: hidden;
 }
 
 h1, h2, p {
