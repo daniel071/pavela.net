@@ -14,19 +14,29 @@
 
 <div class="main">
 <br>
+
 <h1>pavela.net</h1>
 <h2 id="coolSplash">Welcome to my website!</h2>
 
 <br><br>
 
-<h3> My Websites </h3>
-<a class="button" href="/Daniel/"><b>About me</b></a>
+<h3 lang="en"> My Websites </h3>
+<h3 lang="sk"> Moje webové stránky </h3>
+<!-- if I did it inline without div, it broke, so yeah... -->
 
-<a class="button" href="/DungeonCli/">DungeonCli</a>
+<div lang="en">
+	<a class="button" href="/Daniel/"><b>About me</b></a>
+	<a class="button" href="/DungeonCli/">DungeonCli</a>
+</div>
+<div lang="sk">
+	<a class="button" href="/Daniel/"><b>O mne</b></a>
+	<a class="button" href="/DungeonCli/">DungeonCli</a>
+</div>
 
 <br><br>
 
-<h3> My Servers </h3>
+<h3 lang="en"> My Servers </h3>
+<h3 lang="sk"> Moje servery </h3>
 <a class="button" href="http://pavela.net:3000/">Gitea Server</a>
 
 <a class="button" href="http://pavela.net:8090/">Jenkins Server</a>
@@ -36,7 +46,8 @@
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="footer">
-  <h3>This site is open source!</h3>
+  <h3 lang="en">This site is open source!</h3>
+	<h3 lang="sk">Táto stránka je otvorený zdroj!</h3>
 	<a href="https://github.com/daniel071/pavela.net">
 		<img width="60" alt="Github logo" src="icons/github.png">
 	</a>
