@@ -16,7 +16,7 @@ englishTip[1]="Welcome to my website!"
 englishTip[2]="Made by Daniel!"
 englishTip[3]="Refresh the page!"
 
-slovakTip[0]="Vyrábam hry, nástroje a ďalší softvér."
+slovakTip[0]="Robím hry, nástroje a ďalší softvér."
 slovakTip[1]="Vitajte na mojej webovej stránke!"
 slovakTip[2]="Vytvoril Daniel!"
 slovakTip[3]="Obnovte stránku!"
@@ -24,7 +24,7 @@ slovakTip[3]="Obnovte stránku!"
 var random=Math.floor(Math.random()*englishTip.length)
 var sheet = window.document.styleSheets[0];
 
-if (locale == "sk") {
+if (locale != "sk") {
 	document.getElementById("coolSplash").innerHTML = slovakTip[random];
 	addCSS(':lang(en) {display:none;}');
 } else {
