@@ -47,6 +47,7 @@ h2 {
 
 /* Footer */
 .footer {
+	margin: 0 !important;
   padding: 20px;
   text-align: center;
   background-color: #4ea8fc;
@@ -69,6 +70,12 @@ h2 {
 		float: unset;
 		clear: unset;
 	}
+
+	.seemless-image {
+		margin: 20px;
+		float: unset;
+		clear: unset;
+	}
 }
 
 /* If on desktop */
@@ -78,6 +85,10 @@ h2 {
 		float: right;
 		width: 400px;
 		clear: right
+	}
+
+	.seemless-image {
+		margin: 20px;
 	}
 }
 
