@@ -24,7 +24,7 @@ slovakTip[3]="Obnovte stránku!"
 var random=Math.floor(Math.random()*englishTip.length)
 var sheet = window.document.styleSheets[0];
 
-if (locale != "sk") {
+if (locale == "sk") {
 	document.getElementById("coolSplash").innerHTML = slovakTip[random];
 	addCSS(':lang(en) {display:none;}');
 } else {
