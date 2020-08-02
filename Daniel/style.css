@@ -73,6 +73,7 @@ h2 {
 
 	.seemless-image {
 		margin: 20px;
+		width: 90%;
 		float: unset;
 		clear: unset;
 	}
