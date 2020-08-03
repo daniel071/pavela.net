@@ -4,7 +4,7 @@ function getLang() {
  else
  return navigator.language;
 }
-const addCSS = s =>(d=>{d.head.appendChild(d.createElement("style")).innerHTML=s})(document);
+// addCSS is defined in locale.js
 
 var locale = getLang().substring(0, 2)
 

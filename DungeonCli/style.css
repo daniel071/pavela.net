@@ -54,16 +54,16 @@ body, html {
   color: white;
 }
 
-#downloadLinux {
+#downloadLinuxEnglish, #downloadLinuxSlovak {
 	display: none;
 }
-#downloadWindows {
+#downloadWindowsEnglish, #downloadWindowsSlovak {
 	display: none;
 }
-#downloadMacOS {
+#downloadMacOSEnglish, #downloadMacOSSlovak {
 	display: none;
 }
-#downloadOther {
+#downloadOtherEnglish, #downloadOtherSlovak {
 	display: none;
 }
 

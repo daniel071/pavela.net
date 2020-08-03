@@ -4,7 +4,8 @@ function getLang() {
  else
  return navigator.language;
 }
-// const addCSS = s =>(d=>{d.head.appendChild(d.createElement("style")).innerHTML=s})(document);
+
+const addCSS = s =>(d=>{d.head.appendChild(d.createElement("style")).innerHTML=s})(document);
 
 var locale = getLang().substring(0, 2)
 
