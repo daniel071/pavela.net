@@ -26,6 +26,6 @@ if (OSName=="Windows"){
 	document.getElementById("downloadOtherSlovak").style.display = "inline";
 	if(OSName=="UNIX"){
 		document.getElementById("downloadOtherEnglish").innerHTML = "Unix will probably work, you need to compile it";
-		document.getElementById("downloadOtherSlovak").innerHTML = "Unix will probably work, you need to compile it";
+		document.getElementById("downloadOtherSlovak").innerHTML = "Unix bude pravdepodobne fungovať, musíte ho skompilovať";
 	}
 }
