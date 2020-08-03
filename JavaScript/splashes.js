@@ -26,8 +26,6 @@ var sheet = window.document.styleSheets[0];
 
 if (locale == "sk") {
 	document.getElementById("coolSplash").innerHTML = slovakTip[random];
-	addCSS(':lang(en) {display:none;}');
 } else {
 	document.getElementById("coolSplash").innerHTML = englishTip[random];
-	addCSS(':lang(sk) {display:none;}');
 }
