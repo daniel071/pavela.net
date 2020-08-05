@@ -47,8 +47,8 @@ h2 {
 
 /* Footer */
 .footer {
-	margin: 0 !important;
-  padding: 20px;
+	margin: -10px !important;
+  padding: 20px !important;
   text-align: center;
   background-color: #4ea8fc;
 	color: white;
