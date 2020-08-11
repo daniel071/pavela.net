@@ -26,7 +26,24 @@
 
 <div lang="en">
 	<div id="downloadLinuxEnglish">
-	<a class="button" href="http://pavela.net:3000/attachments/9ba2e156-5732-4357-a641-269c25741f27"><b>Download for Linux</b></a>
+	<button class="button" id="linuxInstall">Install for Linux</button>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Linux Installation</h2>
+    </div>
+    <div class="modal-body">
+      <p>Simply copy and paste this into the terminal!</p>
+			<code>
+      <p>/bin/bash -c "$(curl -fsSL http://pavela.net:3000/Daniel/DungeonCli/raw/branch/master/Scripts/install-linux.sh)"</p>
+			</code>
+    </div>
+  </div>
+
+	</div>
 	</div>
 	<div id="downloadWindowsEnglish">
 	<a class="button" href="http://pavela.net:3000/attachments/f731aa1b-c460-4711-a0ad-f6db5b31c9be">Download for Windows</a>
@@ -41,7 +58,7 @@
 </div>
 <div lang="sk">
 	<div id="downloadLinuxSlovak">
-	<a lang="sk" class="button" href="http://pavela.net:3000/attachments/9ba2e156-5732-4357-a641-269c25741f27"><b>Stiahnite si pre Linux	</b></a>
+	<a lang="sk" class="button" href="http://pavela.net:3000/Daniel/DungeonCli/src/branch/master/Docs/Installation.md#user-content-on-linux"><b>Inštalovať pre Linux</b></a>
 	</div>
 	<div lang="sk" id="downloadWindowsSlovak">
 	<a lang="sk" class="button" href="http://pavela.net:3000/attachments/f731aa1b-c460-4711-a0ad-f6db5b31c9be">Stiahnite si pre Windows</a>
@@ -77,6 +94,7 @@
 
 <script src="../JavaScript/getOS.js"></script>
 <script src="../JavaScript/locale.js"></script>
+<script src="../JavaScript/modal.js"></script>
 
 </body>
 </html>
