@@ -9,7 +9,8 @@ body, html {
 
 .bg-image {
   /* The image used */
-  background-image: url("icons/banner.png");
+	/* Use background-image: url("icons/image.png"); for when you want a banner image */
+  /* background-image: url("icons/banner.png"); */
 
   /* Add the blur effect */
   /* filter: blur(4px);
