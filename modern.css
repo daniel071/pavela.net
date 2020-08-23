@@ -139,7 +139,7 @@ body, html {
 }
 /* visited link */
 .main a:visited {
-	color: #000fe8;
+	color: #005be8;
 }
 /* mouse over link */
 .main a:hover {
