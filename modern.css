@@ -1,0 +1,109 @@
+body, html {
+	/* use #3f494f for pavela website */
+	background-color: #3f494f;
+	height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow-x: hidden;
+}
+
+.bg-image {
+  /* The image used */
+	/* Use background-image: url("icons/image.png"); for when you want a banner image */
+  /* background-image: url("icons/banner.png"); */
+
+  /* Add the blur effect */
+  /* filter: blur(4px);
+  -webkit-filter: blur(4px); */
+
+  /* Full height */
+  height: 78%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main {
+	font-family: 'Product Sans'; Roboto; Arial;
+	text-align: center;
+	color: white;
+}
+
+.button {
+  border-radius: 8px;
+  padding: 32px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+	font-family: 'Product Sans'; Roboto; Arial;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+	background-color: #0082ac;
+	color: white;
+	border: 2px solid #0082ac;
+}
+
+.button:hover {
+	transform: scale(1.03);
+  background-color: #008CBA;
+	border-color: #008CBA;
+  color: white;
+}
+
+.footer {
+	font-family: 'Product Sans'; Roboto; Arial;
+	font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #008CBA;
+	color: white;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #3f494f;
+	font-family: 'Product Sans'; Roboto; Arial;
+	font-size: 20px;
+}
+
+.active {
+	background-color: #008CBA;
+	color: white
+}
+
+/* Style the navigation bar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+	#navbar a {
+    float: none;
+    display: block;
+  }
+
+	#navbar a {
+		position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+	}
+}
