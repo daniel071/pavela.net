@@ -26,11 +26,17 @@ body, html {
   background-size: cover;
 }
 
+#title {
+	text-align: center !important;
+}
 
 .main {
 	font-family: 'Product Sans'; Roboto; Arial;
-	text-align: center;
+	text-align: left;
 	color: white;
+	max-width: 600px;
+	margin: auto;
+	padding: 10px;
 }
 
 .button {
