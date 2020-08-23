@@ -107,6 +107,11 @@ body, html {
   color: black;
 }
 
+.right_img {
+	float:right;
+  right: 0px;
+}
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
 	#navbar a {
@@ -120,4 +125,23 @@ body, html {
     left: 0;
     transform: none;
 	}
+
+	.main img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+}
+
+.main a:link {
+	color: #3e65ff;
+}
+/* visited link */
+.main a:visited {
+	color: #000fe8;
+}
+/* mouse over link */
+.main a:hover {
+	color: #2e91fb;
 }
