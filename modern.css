@@ -80,6 +80,8 @@ body, html {
 }
 
 #navbar {
+	width: 100%;
+	position: fixed;
   overflow: hidden;
   background-color: #3f494f;
 	font-family: 'Product Sans'; Roboto; Arial;
@@ -114,6 +116,10 @@ body, html {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
+	#navbar {
+		position: inherit;
+	}
+
 	#navbar a {
     float: none;
     display: block;
