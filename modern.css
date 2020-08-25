@@ -80,8 +80,9 @@ body, html {
 }
 
 #navbar {
-	width: 100%;
-	position: fixed;
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   overflow: hidden;
   background-color: #3f494f;
 	font-family: 'Product Sans'; Roboto; Arial;
@@ -151,4 +152,17 @@ body, html {
 /* mouse over link */
 .main a:hover {
 	color: #21acff;
+}
+
+.solid_colour_title {
+	padding: 50px;
+	height: 20%;
+	background-color: #008CBA;
+	color: white;
+	font-family: 'Product Sans'; Roboto; Arial;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
