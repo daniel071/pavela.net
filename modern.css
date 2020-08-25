@@ -156,7 +156,7 @@ body, html {
 
 .solid_colour_title {
 	padding: 50px;
-	height: 20%;
+	/* height: 20%; */
 	background-color: #008CBA;
 	color: white;
 	font-family: 'Product Sans'; Roboto; Arial;
