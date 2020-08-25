@@ -16,36 +16,43 @@
 	<div class="ui stackable middle very relaxed page grid">
 		<div class="eight wide center column">
 			<h1 class="hero ui icon header">
-				{{svg "octicon-flame" 16}} {{.i18n.Tr "startpage.install"}}
+				{{svg "octicon-repo" 16}} Purpose
 			</h1>
 			<p class="large">
-				{{.i18n.Tr "startpage.install_desc" | Str2html}}
+				Self-hosting is fun! Gitea is open source and I also prefer the UI.
+				I use this for some of my projects. 
 			</p>
 		</div>
 		<div class="eight wide center column">
 			<h1 class="hero ui icon header">
-				{{svg "octicon-device-desktop" 16}} {{.i18n.Tr "startpage.platform"}}
+				{{svg "octicon-code" 16}} Open Source
 			</h1>
 			<p class="large">
-				{{.i18n.Tr "startpage.platform_desc" | Str2html}}
+				Everything here is open source, so feel free to do anything you want
+				with the code! (as long as it complies with the license!)
 			</p>
 		</div>
 	</div>
 	<div class="ui stackable middle very relaxed page grid">
 		<div class="eight wide center column">
 			<h1 class="hero ui icon header">
-				{{svg "octicon-rocket" 16}} {{.i18n.Tr "startpage.lightweight"}}
+				{{svg "octicon-database" 16}} Usage
 			</h1>
 			<p class="large">
-				{{.i18n.Tr "startpage.lightweight_desc" | Str2html}}
+				This server has limited storage and resources. Please keep the repos here
+				related to my projects. Unrelated repos are fine as long as they don't take
+				too much space. Failure to comply will result in a 24 hour notice before
+				deletion.
 			</p>
 		</div>
 		<div class="eight wide center column">
 			<h1 class="hero ui icon header">
-				{{svg "octicon-code" 16}} {{.i18n.Tr "startpage.license"}}
+				{{svg "octicon-lock" 16}} Security
 			</h1>
 			<p class="large">
-				{{.i18n.Tr "startpage.license_desc" | Str2html}}
+				To protect against bruteforce attacks, 3 failed login attempts on Gitea
+				will result in a 2 hour ban. 2 failed login attempts on SSH will result
+				on a 2 hour ban.
 			</p>
 		</div>
 	</div>
