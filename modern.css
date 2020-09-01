@@ -59,7 +59,7 @@ body, html {
   transition-duration: 0.4s;
   cursor: pointer;
 	background-color: #0082ac;
-	color: white;
+	color: white !important;
 	border: 2px solid #0082ac;
 }
 
@@ -67,7 +67,7 @@ body, html {
 	transform: scale(1.03);
   background-color: #008CBA;
 	border-color: #008CBA;
-  color: white;
+  color: white !important;
 }
 
 .footer {
