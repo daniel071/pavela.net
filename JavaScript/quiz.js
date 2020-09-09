@@ -21,6 +21,6 @@ function validate(answer, resultID, number, questionID) {
   document.getElementById(resultID).innerHTML = text;
 
 	// Provide explanation to answer
-	explanation = document.getElementById("explanation")
+	var explanation =  document.getElementById(questionID).getElementsByClassName("hideExplanation")[0];
 	explanation.classList.add("showExplanation")
 }
