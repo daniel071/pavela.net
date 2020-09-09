@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="../favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="description" content="Math">
+	<meta name="keywords" content="Math, Bidmas, Rounding, Perecentages">
+	<meta name="author" content="Moon Walkers">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Math</title>
+	<link rel="stylesheet" type="text/css" href="../modern.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans">
+</head>
+<body class="dungeonCliMain">
+
+<div id="navbar">
+  <a href="#">BIDMAS</a>
+	<a href="rounding.html" class="active">Rounding</a>
+	<a href="percentages.html">Percentages</a>
+</div>
+
+<div class="solid_colour_title">
+	<h1 id="title">Math Lessons - Rounding	</h1>
+	<h2 id="title">By the Moon Walkers</h2>
+</div>
+
+<div class="main">
+
+<br><br>
+<p><b>Learning Goal:</b> To learn what rounding is and to be able to round numbers.</p>
+
+<h3>WHY WE ROUND NUMBERS</h3>
+<p>Rounding numbers is used to make them easier to read. </p>
+
+<p>Some numbers have an infinite amount of decimals, and rounding them gives an approximation of what value the number holds. For example, ⅓ = 0.33. In reality, there is supposed to be an infinite number of 3’s, but we cannot write that many. Because of that, we have to round them.</p>
+
+<h3>HOW TO ROUND NUMBERS</h3>
+<p>When rounding a number, you will round it to an amount of “significant digits”. This means all numbers that are not 0, and all zeros that are between two non-zero digits (e.g. in 177013 all the digits are significant, but in 17701300 the final two digits are not significant, meaning that both numbers have 6 significant digits). Another way of rounding is by rounding to a certain amount, such as tenths (e.g. Rounding 12.72 up to the nearest tenth, which would equal 12.7).</p>
+<p>A whole number is a number that does not have any decimal places</p>
+<div class="cool-list">
+<ul>
+	<p>✅ 20</p>
+	<p>✅ 65</p>
+	<p>❌ 3.5</p>
+	<p>❌ 2.75</p>
+
+</ul>
+</div>
+
+
+<button class="button" id="linuxInstall" href="quiz">Take the quiz!</button>
+
+<div id="myModal" class="modal">
+<!-- Modal content -->
+<div class="modal-content">
+	<div class="modal-header">
+		<span class="close">&times;</span>
+		<h2>Quiz</h2>
+	</div>
+	<div class="modal-body">
+		<div id="questionOne" class="question">
+			<h3>Round 17.7013 to the nearest hundredth</h3>
+			<input class="number">
+			<button type="button" onclick='validate(17.10, "questionOne")'>Submit</button>
+			<p class="result"></p>
+			<div id="explanation" class="hideExplanation">
+				<p>A hundredth is the second decimal place. To round 17.7013, we have to look at the number before 0, which is 1. Because 1 is lower than 5, we do not increase the value of the number after it (0) Then the unnecessary numbers after the hundredth are removed.</p>
+			</div>
+		</div>
+
+		<div id="questionTwo" class="question">
+			<h3>Round 1/3 to the nearest tenth	</h3>
+			<input class="number">
+			<button type="button" onclick='validate(0.3, "questionTwo")'>Submit</button>
+			<p class="result"></p>
+			<div id="explanation" class="hideExplanation">
+				<p>1/3 is a number that has endless digits. This is why we need to round it. Its value is 0.3333...</p>
+			</div>
+		</div>
+
+		<div id="questionThree" class="question">
+			<h3>Round π to a whole number</h3>
+			<input class="number">
+			<button type="button" onclick='validate(3, "questionThree")'>Submit</button>
+			<p class="result"></p>
+			<div id="explanation" class="hideExplanation">
+				<p>π is a number that has endless digits. This is why we need to round it. It starts with 3.1415...</p>
+			</div>
+		</div>
+
+		<div id="questionFour" class="question">
+			<h3>Round √10  to the nearest thousandth </h3>
+			<input class="number">
+			<button type="button" onclick='validate(3.333, "questionFour")'>Submit</button>
+			<p class="result"></p>
+			<div id="explanation" class="hideExplanation">
+				<p>√10 is a number that has endless digits. This is why we need to round it. It starts at 3.333...</p>
+			</div>
+		</div>
+
+		<div id="questionFive" class="question">
+			<h3>Round √40  to the nearest hundredth </h3>
+			<input class="number">
+			<button type="button" onclick='validate(6.66, "questionFive")'>Submit</button>
+			<p class="result"></p>
+			<div id="explanation" class="hideExplanation">
+				<p>√40 is a number that has endless digits. This is why we need to round it. It starts with 6.66666...</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+<br><br><br><br><br><br><br><br>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="footer">
+	<h3 lang="en">This site is open source!</h3>
+	<a href="https://github.com/daniel071/pavela.net">
+		<img width="60" alt="Github logo" src="../icons/github.png">
+	</a>
+</div>
+
+<script src="../JavaScript/modal.js"></script>
+<script src="../JavaScript/quiz.js"></script>
+
+</body>
+</html>

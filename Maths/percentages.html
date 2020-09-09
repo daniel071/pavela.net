@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="../favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="description" content="Math">
+	<meta name="keywords" content="Math, Bidmas, Rounding, Perecentages">
+	<meta name="author" content="Moon Walkers">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Math</title>
+	<link rel="stylesheet" type="text/css" href="../modern.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans">
+</head>
+<body class="dungeonCliMain">
+
+<div id="navbar">
+  <a href="#">BIDMAS</a>
+	<a href="rounding.html">Rounding</a>
+	<a href="percentages.html" class="active">Percentages</a>
+</div>
+
+<div class="solid_colour_title">
+	<h1 id="title">Math Lessons - Percentages</h1>
+	<h2 id="title">By the Moon Walkers</h2>
+</div>
+
+<div class="main">
+
+<br><br>
+
+<p><b>Learning Goal:</b> To understand percentages and to be able to convert decimals to percentages.</p>
+<p><b>Definition:</b> Percentages are numbers but written in a different form.</p>
+
+<p>
+It is a number expressed with a fraction of 100. For example, 60/100 would be 60%. % is the percent symbol, it is added to the end of a number to indicate it is a percentage.
+<div class="cool-list">
+<ul>
+<p>20% = 0.20 = 20/100</p>
+<p>60% = 0.60 = 60/100</p>
+<p>115% = 1.15 = 115/100</p>
+</ul>
+</div>
+
+
+<button class="button" id="linuxInstall" href="quiz">Take the quiz!</button>
+
+<div id="myModal" class="modal">
+<!-- Modal content -->
+<div class="modal-content">
+	<div class="modal-header">
+		<span class="close">&times;</span>
+		<h2>Quiz</h2>
+	</div>
+	<div class="modal-body">
+		<div id="questionOne" class="question">
+			<h3>What is 0.405 as a percentage?</h3>
+			<input class="number">
+			<button type="button" onclick='validate(40.5, "questionOne")'	>Submit</button>
+			<p class="result"></p>
+			<div id="explanation" class="hideExplanation">
+				<p>To turn decimals into percentages, we have to multiply them by 100. 0.405 multiplied by 100 is 40.5, so it is written as 40.5%</p>
+			</div>
+		</div>
+
+		<div id="questionTwo" class="question">
+			<h3>What is 60/100 as a percentage?</h3>
+			<input class="number">
+			<button type="button" onclick='validate(60, "questionTwo")'>Submit</button>
+			<p class="result"></p>
+			<div id="explanation" class="hideExplanation">
+				<p>To turn a fraction into percentages, we have to divide the numerator by the denominator. This answer would be written in decimal form (0.00),  then is converted decimal form into a percentage.</p>
+
+				<p>60/100 = 0.6</p>
+				<p>0.6 = 0.60</p>
+				<p>0.60 = 60%</p>
+				<p>60/100 = 60%</p>
+			</div>
+		</div>
+
+		<div id="questionThree" class="question">
+			<h3>What is 1.02 as a percentage?</h3>
+			<input class="number">
+			<button type="button" onclick='validate(102, "questionThree")'>Submit</button>
+			<p class="result"></p>
+			<div id="explanation" class="hideExplanation">
+				<p>To convert a decimal into a percentage, the decimal must be multiplied by 100. 1.02 multiplied by 100 is 102.</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+<br><br><br><br><br><br><br><br>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="footer">
+	<h3 lang="en">This site is open source!</h3>
+	<a href="https://github.com/daniel071/pavela.net">
+		<img width="60" alt="Github logo" src="../icons/github.png">
+	</a>
+</div>
+
+<script src="../JavaScript/modal.js"></script>
+<script src="../JavaScript/quiz.js"></script>
+
+</body>
+</html>
