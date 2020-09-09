@@ -1,10 +1,10 @@
 function validate(answer, resultID, number) {
   var x, text;
 
-  // Get the value of the input field with id="numb"
+  // Get value from thing
   x = document.getElementById(number).value;
 
-  // If x is Not a Number or less than one or greater than 10
+  // Check if answer is correct to number provided
   if (isNaN(x) || x != answer) {
     text = "❌ Incorrect!";
   } else {
