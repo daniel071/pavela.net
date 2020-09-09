@@ -29,7 +29,7 @@
 
 <br><br>
 
-<img class="right_img" alt="Image of BIDMAS" src"../icons/bidmas.png" style="color:white;" width="350px">
+<img class="right_img" alt="Image of BIDMAS" src"/icons/bidmas.png" style="color:white;" width="350px">
 
 <p><b>Learning Goal:</b> To understand and be able to use BIDMAS to solve problems.</p>
 <p><b>Definition:</b> B.I.D.M.A.S is the order in which an equation is completed.</p>
@@ -48,8 +48,11 @@ Brackets group together numbers. For example, in 2(4 + 3), 2 would be multiplied
 		<h2>Quiz</h2>
 	</div>
 	<div class="modal-body">
-		<h3>What is 2 + 2</h3>
-		<!-- TODO: DO THIS THING -->
+		<h3>2 x (4 + 3)</h3>
+		<input id="numberOne">
+		<button type="button" onclick='validate(14, "resultOne", "numberOne")'	>Submit</button>
+		<p id="resultOne"></p>
+
 		<br><br>
 	</div>
 </div>
@@ -67,6 +70,7 @@ Brackets group together numbers. For example, in 2(4 + 3), 2 would be multiplied
 </div>
 
 <script src="../JavaScript/modal.js"></script>
+<script src="../JavaScript/quiz.js"></script>
 
 </body>
 </html>
