@@ -48,17 +48,19 @@ Brackets group together numbers. For example, in 2(4 + 3), 2 would be multiplied
 		<h2>Quiz</h2>
 	</div>
 	<div class="modal-body">
-		<h3>2 x (4 + 3)</h3>
-		<input id="numberOne">
-		<button type="button" onclick='validate(14, "resultOne", "numberOne")'	>Submit</button>
-		<p id="resultOne"></p>
-		<br><br>
+		<div id="questionOne" class="question">
+			<h3>2 x (4 + 3)</h3>
+			<input id="numberOne">
+			<button type="button" onclick='validate(14, "resultOne", "numberOne", "questionOne")'	>Submit</button>
+			<p id="resultOne"></p>
+		</div>
 
-		<h3>17 + 7 x (0 x 13)</h3>
-		<input id="numberTwo">
-		<button type="button" onclick='validate(17, "resultTwo", "numberTwo")'>Submit</button>
-		<p id="resultTwo"></p>
-		<br><br>
+		<div id="questionTwo" class="question">
+			<h3>17 + 7 x (0 x 13)</h3>
+			<input id="numberTwo">
+			<button type="button" onclick='validate(17, "resultTwo", "numberTwo", "questionTwo")'>Submit</button>
+			<p id="resultTwo"></p>
+		</div>
 
 	</div>
 </div>
@@ -69,7 +71,7 @@ Brackets group together numbers. For example, in 2(4 + 3), 2 would be multiplied
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="footer">
-  <h3 lang="en">This site is open source!</h3>
+	<h3 lang="en">This site is open source!</h3>
 	<a href="https://github.com/daniel071/pavela.net">
 		<img width="60" alt="Github logo" src="../icons/github.png">
 	</a>

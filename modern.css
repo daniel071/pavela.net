@@ -235,3 +235,17 @@ body, html {
 }
 
 .modal-body {padding: 2px 16px;}
+
+/* Quiz stuff */
+.question {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 8px;
+}
+
+.correctQuestion {
+	background-color: #25fc2d;
+}
+.incorrectQuestion {
+	background-color: #fc3025;
+}
