@@ -19,4 +19,8 @@ function validate(answer, resultID, number, questionID) {
 		epicQuestion.classList.add("correctQuestion")
   }
   document.getElementById(resultID).innerHTML = text;
+
+	// Provide explanation to answer
+	explanation = document.getElementById("explanation")
+	explanation.classList.add("showExplanation")
 }

@@ -238,14 +238,20 @@ body, html {
 
 /* Quiz stuff */
 .question {
-	padding: 5px;
-	margin: 5px;
+	padding: 15px;
+	margin: 10px;
 	border-radius: 8px;
 }
 
 .correctQuestion {
-	background-color: #25fc2d;
+	background-color: #2e9b33;
 }
 .incorrectQuestion {
-	background-color: #fc3025;
+	background-color: #bb362f;
+}
+.hideExplanation {
+	display: none;
+}
+.showExplanation {
+	display: block !important;
 }

@@ -39,7 +39,7 @@ For example, in 2 x 4 + 3, 2 would be multiplied by 4, and then 3 would be added
 Brackets group together numbers. For example, in 2(4 + 3), 2 would be multiplied by 4 + 3, which is 7. So this would be 2 x 7.</p>
 
 <button class="button" id="linuxInstall" href="quiz">Take the quiz!</button>
-<!-- The Modal -->
+
 <div id="myModal" class="modal">
 <!-- Modal content -->
 <div class="modal-content">
@@ -53,6 +53,15 @@ Brackets group together numbers. For example, in 2(4 + 3), 2 would be multiplied
 			<input id="numberOne">
 			<button type="button" onclick='validate(14, "resultOne", "numberOne", "questionOne")'	>Submit</button>
 			<p id="resultOne"></p>
+			<p id="explanation" class="hideExplanation">
+				First, the equation in the brackets must be figured out, as the first
+				letter of Bidmas, B, stands for brackets. This equates to 7.
+				The equation then becomes 2 x 7, which is 14.
+
+				2 x (4 + 3)
+				= 2 x 7
+				= 14
+			</p>
 		</div>
 
 		<div id="questionTwo" class="question">
@@ -62,13 +71,33 @@ Brackets group together numbers. For example, in 2(4 + 3), 2 would be multiplied
 			<p id="resultTwo"></p>
 		</div>
 
+		<div id="questionThree" class="question">
+			<h3>7 + 4 + (6 x 9)</h3>
+			<input id="numberThree">
+			<button type="button" onclick='validate(65, "resultThree", "numberThree", "questionThree")'>Submit</button>
+			<p id="resultThree"></p>
+		</div>
+
+		<div id="questionFour" class="question">
+			<h3>89 + (6 - -3 [5 + 6] + 25)</h3>
+			<input id="numberFour">
+			<button type="button" onclick='validate(153, "resultFour", "numberFour", "questionFour")'>Submit</button>
+			<p id="resultFour"></p>
+		</div>
+
+		<div id="questionFive" class="question">
+			<h3>9 + 7 + (3 x 20) ÷ 10</h3>
+			<input id="numberFive">
+			<button type="button" onclick='validate(22, "resultFive", "numberFive", "questionFive")'>Submit</button>
+			<p id="resultFive"></p>
+		</div>
 	</div>
 </div>
+<br><br><br><br><br><br><br><br>
+</div>
 </div>
 
-</div>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="footer">
 	<h3 lang="en">This site is open source!</h3>
@@ -81,4 +110,5 @@ Brackets group together numbers. For example, in 2(4 + 3), 2 would be multiplied
 <script src="../JavaScript/quiz.js"></script>
 
 </body>
+jhon
 </html>
