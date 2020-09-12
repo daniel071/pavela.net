@@ -1,6 +1,6 @@
 # pavela.net
 [![Website pavela.net](https://img.shields.io/website-up-down-green-red/https/pavela.net)](https://pavela.net/)
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
 This is the source code for the website hosted at [pavela.net](https://pavela.net)!
 
