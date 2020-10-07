@@ -1,11 +1,11 @@
 @font-face {
    font-family: Manrope;
-   src: url("https://pavela.net/fonts/manrope/Manrope-Medium.woff");
+   src: url("https://pavela.net/fonts/manrope/Manrope-Medium.woff2");
 }
 
 @font-face {
    font-family: Manrope;
-   src: url("https://pavela.net/fonts/manrope/Manrope-Bold.woff");
+   src: url("https://pavela.net/fonts/manrope/Manrope-Bold.woff2");
    font-weight: bold;
 }
 
