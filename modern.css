@@ -1,3 +1,14 @@
+@font-face {
+   font-family: Manrope;
+   src: url("https://pavela.net/fonts/manrope/Manrope-Regular.woff");
+}
+
+@font-face {
+   font-family: Manrope;
+   src: url("https://pavela.net/fonts/manrope/Manrope-Bold.woff");
+   font-weight: bold;
+}
+
 body, html {
 	/* use #3f494f for pavela website */
 	background-color: #3f494f;
@@ -31,7 +42,7 @@ body, html {
 }
 
 .main {
-	font-family: 'Product Sans'; Roboto; Arial;
+	font-family: Manrope; Roboto; Arial;
 	text-align: left;
 	color: white;
 	max-width: 600px;
@@ -54,7 +65,7 @@ body, html {
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
-	font-family: 'Product Sans'; Roboto; Arial;
+	font-family: Manrope; Roboto; Arial;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -71,7 +82,7 @@ body, html {
 }
 
 .footer {
-	font-family: 'Product Sans'; Roboto; Arial;
+	font-family: Manrope; Roboto; Arial;
 	font-size: 20px;
   padding: 20px;
   text-align: center;
@@ -85,7 +96,7 @@ body, html {
   top: 0;
   overflow: hidden;
   background-color: #3f494f;
-	font-family: 'Product Sans'; Roboto; Arial;
+	font-family: Manrope; Roboto; Arial;
 	font-size: 20px;
 }
 
@@ -159,7 +170,7 @@ body, html {
 	/* height: 20%; */
 	background-color: #008CBA;
 	color: white;
-	font-family: 'Product Sans'; Roboto; Arial;
+	font-family: Manrope; Roboto; Arial;
 
 	background-attachment: fixed;
 	background-position: center;
