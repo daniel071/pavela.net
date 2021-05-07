@@ -311,7 +311,8 @@ body, html {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 18px;
+  text-shadow: 2px 2px 2px #101010;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
