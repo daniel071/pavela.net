@@ -277,7 +277,7 @@ body, html {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides, .mySlidesTwo {
   display: none;
 }
 
@@ -320,6 +320,17 @@ body, html {
   text-align: center;
 }
 
+.topText {
+  color: #f2f2f2;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px #101010;
+  padding: 8px 12px;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  text-align: center;
+}
+
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -330,7 +341,7 @@ body, html {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot, .dotTwo {
   cursor: pointer;
   height: 15px;
   width: 15px;
