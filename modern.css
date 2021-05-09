@@ -93,6 +93,7 @@ body, html {
 #navbar {
 	position: -webkit-sticky; /* Safari */
   position: sticky;
+  z-index: 999; /* stay on top */
   top: 0;
   overflow: hidden;
   background-color: #3f494f;
