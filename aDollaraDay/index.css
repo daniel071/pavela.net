@@ -1,0 +1,86 @@
+body, html {
+  height: 100%;
+  background-color: #212121;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+
+}
+
+.parallax {
+  /* The image used *
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* flex-flow: row nowrap; */
+  text-align: center;
+}
+
+.single-chart {
+  padding: 10px;
+  width: 400px;
+  justify-content: center ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.percentage {
+  fill: white;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
