@@ -12,6 +12,14 @@ p {
 
 }
 
+.center {
+  margin: 0;
+  /* top: 50%; */
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+  text-align: center;
+}
+
 .parallax {
   /* The image used *
 
@@ -83,4 +91,30 @@ p {
   fill: white;
   font-size: 0.5em;
   text-anchor: middle;
+}
+
+#sec {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+}
+@-webkit-keyframes border {
+     from {width: 0px;}
+     to {width:100%}
+}
+
+#sec:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: white;
+  -webkit-animation-name: border; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: border;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
