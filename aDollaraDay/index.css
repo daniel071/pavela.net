@@ -1,3 +1,14 @@
+@font-face {
+   font-family: Manrope;
+   src: url("https://pavela.net/fonts/manrope/Manrope-Medium.woff2");
+}
+
+@font-face {
+   font-family: Manrope;
+   src: url("https://pavela.net/fonts/manrope/Manrope-Bold.woff2");
+   font-weight: bold;
+}
+
 body, html {
   height: 100%;
   background-color: #212121;
@@ -5,20 +16,38 @@ body, html {
   padding: 0 !important;
   overflow-x: hidden;
   color: white;
+  font-family: Manrope
 }
+
 
 p {
   font-size: 18px;
+}
 
+.main {
+  text-align: left;
+	color: white;
+	max-width: 600px;
+	margin: auto;
+	padding: 10px;
 }
 
 .center {
   margin: 0;
-  /* top: 50%; */
-  -ms-transform: translateY(50%);
-  transform: translateY(50%);
   text-align: center;
 }
+
+
+@media screen and (min-width: 838px) {
+  .center {
+    margin: 0;
+    text-align: center;
+    -ms-transform: translateY(50%) !important;
+    transform: translateY(50%) !important;
+  }
+}
+
+
 
 .parallax {
   /* The image used *
@@ -117,4 +146,18 @@ p {
   animation-duration: 1s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+}
+
+
+.main a:link {
+	/* color: #3e65ff; */
+	color: #2e91fb;
+}
+/* visited link */
+.main a:visited {
+	color: #3e65ff;
+}
+/* mouse over link */
+.main a:hover {
+	color: #21acff;
 }
