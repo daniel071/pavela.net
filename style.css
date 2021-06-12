@@ -79,3 +79,23 @@ body, html {
 /* :lang(en) {
 	display: none;
 } */
+
+.alert {
+  font-family: Manrope; Roboto; Arial;
+  top: 0;
+  position: sticky;
+  padding: 20px;
+  background-color: #039BE5;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
