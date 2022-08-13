@@ -99,3 +99,16 @@ body, html {
   cursor: pointer;
   transition: 0.3s;
 }
+
+.solid_colour_title_red {
+	padding: 50px;
+	/* height: 20%; */
+	background-color: #F4511E;
+	color: white;
+	font-family: Manrope; Roboto; Arial;
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
